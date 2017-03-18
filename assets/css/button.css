@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+@font-face {
+	font-family: Airbag Free;
+	src: url('assets/fonts/airbag.ttf');
+}
 button {
     overflow: visible;
     border: 0;
@@ -24,12 +28,12 @@ button {
 }
 .btn.striped-shadow.dark span {
     border-color: #2B3B40;
-    background: #fff;
+    background: #C6D1D3;
   color: #2B3B40;
 }
 
 .btn {
-    font-family: 'Bungee Shade', sans-serif;
+    font-family: Airbag Free;
     height: 80px;
     line-height: 65px;
     display: inline-block;
@@ -46,7 +50,7 @@ button {
 }
 
 .btn {
-    width: 155px;
+    width: 255px;
     height: 48px;
     line-height: 38px;
 }

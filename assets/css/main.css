@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	body {
-		background: #f0f4f4;
+		background: #939EA0;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -1579,7 +1579,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #2B3B40;
 		line-height: 1.25em;
 	}
 
@@ -1608,7 +1608,7 @@
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: #2B3B40;
 	}
 
 	em, i {
@@ -1874,7 +1874,7 @@
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #483949;
+		color: #2B3B40;
 		margin: 0 0 1em 0;
 	}
 
@@ -2326,7 +2326,7 @@
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #C6D1D3;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2508,7 +2508,7 @@
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #C6D1D3;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
