@@ -39,7 +39,7 @@ button {
     display: inline-block;
     letter-spacing: 1px;
     position: relative;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     width: 250px;
     transition: opacity .3s,z-index .3s step-end,-webkit-transform .3s;
     transition: opacity .3s,z-index .3s step-end,transform .3s;
