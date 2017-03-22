@@ -4,10 +4,9 @@
 		<title>Generația Z</title>
 		<meta charset="utf-16" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="stylesheet" href="assets/css/button.css" />
+		<link rel="stylesheet" href="assets/css/modal.css" />
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -49,7 +48,7 @@
 					<header>
 						<h2>Generația Z pe scurt</h2>
 						<div>
-    						<button class="btn striped-shadow dark"><span>CARACTERISTICI</span></button>
+    						<button class="btn striped-shadow dark" id="CARACTERISTICI"><span>CARACTERISTICI</span></button>
 							<button class="btn striped-shadow dark"><span>GENERATII ANTERIOARE</span></button>
 							<button class="btn striped-shadow dark"><span>DEMOGRAFIE</span></button>
 							<button class="btn striped-shadow dark"><span>TEHNOLOGIE</span></button>
@@ -71,7 +70,18 @@
 							<button class="btn striped-shadow dark"><span>IMPLICARE SOCIALA</span></button>
  						</div>
 					</header>
+					<div id="modalCARACT" class="modal">
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<header>
+						<br />
+						<p>Noi suntem Generația Z, generația nascută după 1995, adică cea care nu a cunoscut viața fără internet, având acum cel mult 20 de ani.</p>
+						<p>Suntem generația globală, socială, vizuală și puternic tehnologizată. Suntem cei mai conectați, educați și sofisticați din toate timpurile cu influență dincolo de anii noștri. Suntem printre primii care adoptăm noile tranduri, dar sunt și cei care influențează tot ce există  în social media, liderii de opinie în cultura pop. Suntem peste 2 miliarde de Z  la nivel global care nu doar reprezentăm viitorul, ci îl creăm. </p>
+						</header>	
+					</div>
+					</div>
 				</section>
+
 
 			<!-- Carousel -->
 				<section class="carousel">
@@ -143,8 +153,6 @@
 				</div>
 
 		</div>
-
-		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -152,6 +160,6 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/modal.js"></script>
 	</body>
 </html>
