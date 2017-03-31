@@ -48,31 +48,54 @@
 					<header>
 						<h2>Generația Z pe scurt</h2>
 						<div>
-    						<button class="btn striped-shadow dark" id="CARACTERISTICI"><span>CARACTERISTICI</span></button>
-							<button class="btn striped-shadow dark"><span>GENERATII ANTERIOARE</span></button>
-							<button class="btn striped-shadow dark"><span>DEMOGRAFIE</span></button>
-							<button class="btn striped-shadow dark"><span>TEHNOLOGIE</span></button>
+    						<button class="btn striped-shadow dark" onclick="document.getElementById('modalCARACT').style.display='block'"><span>CARACTERISTICI</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>GENERATII ANTERIOARE</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('DEM').style.display='block'"><span>DEMOGRAFIE</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('TECH').style.display='block'"><span>TEHNOLOGIE</span></button>
 						</div>
 						<div>
-							<button class="btn striped-shadow dark"><span>RELATII</span></button>
-							<button class="btn striped-shadow dark"><span>JARGON</span></button>
-							<button class="btn striped-shadow dark"><span>STIL DE COMUNICARE</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('REL').style.display='block'"><span>RELATII</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('JAR').style.display='block'"><span>JARGON</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>STIL DE COMUNICARE</span></button>
  						</div>
 						 <div>
-    						<button class="btn striped-shadow dark"><span>SURSE DE INFORMARE</span></button>
-							<button class="btn striped-shadow dark"><span>EDUCATIE</span></button>
-							<button class="btn striped-shadow dark"><span>STIL DE INVATARE</span></button>
-							<button class="btn striped-shadow dark"><span>LA LOCUL DE MUNCA</span></button>
+    						<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>SURSE DE INFORMARE</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>EDUCATIE</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>STIL DE INVATARE</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>LA LOCUL DE MUNCA</span></button>
 						</div>
 						<div>
-							<button class="btn striped-shadow dark"><span>LEADERSHIP</span></button>
-							<button class="btn striped-shadow dark"><span>INFLUENTATORI</span></button>
-							<button class="btn striped-shadow dark"><span>IMPLICARE SOCIALA</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>LEADERSHIP</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>INFLUENTATORI</span></button>
+							<button class="btn striped-shadow dark" onclick="document.getElementById('modalGEN').style.display='block'"><span>IMPLICARE SOCIALA</span></button>
  						</div>
 					</header>
+					<div id="modalGEN" class="modal">
+					<div class="modal-content">
+						<span class="close" onclick="document.getElementById('modalGEN').style.display='none'">&times;</span>
+						<header>
+							<br />
+							<p>
+								<b>1. Boomers sau Baby Boomers</b>
+								Anii de naștere: 1946-1965
+								Este cunoscută și ca generația care a protestat și a luat parte la mișcarea pentru drepturile omului sau războiul din Vietnam, precum și asasinarea marilor lideri John Fitzgerald Kennedy (noiembrie 1963)  și Martin Luther King (aprilie 1968).
+							</p>
+							<p>
+								<b>2. Generația X</b>
+								Anii de naștere: 1966-1982
+								Este cunoscută ca generația pierdută, deși această generație a adus cei mai mulți intelectuali până în acel moment. În România, generația X o formează tinerii care au participat la revoluție. Începutul generației X a fost la jumătatea anului 1967, o dată cu creșterea ratei fertilității prin interzicerea avorturilor. Decizia de atunci a generat însă la maturitate o aglomerare în sectorul educațional.
+							</p>
+							<p>
+								<b>3. Generația Y</b>
+								Anii de naștere: 1982-1994
+								Este cunoscută și ca Millennials sau Echo Boomers. Generația Y nu are o delimitare precisă când vine vorba de perioadă. Este generația celor pasionați de tehnologie și comunicații, în același timp orientați către consumul de conținut media.   
+							</p>
+						</header>	
+					</div>
+					</div>
 					<div id="modalCARACT" class="modal">
 					<div class="modal-content">
-						<span class="close">&times;</span>
+						<span onclick="document.getElementById('modalCARACT').style.display='none'" class="close" >&times;</span>
 						<header>
 							<br />
 							<p>Noi suntem Generația Z, generația nascută după 1995, adică cea care nu a cunoscut viața fără internet, având acum cel mult 20 de ani.</p>
@@ -80,6 +103,56 @@
 						</header>	
 					</div>
 					</div>
+					<div id="DEM" class="modal">
+					<div class="modal-content">
+						<span onclick="document.getElementById('DEM').style.display='none'" class="close" >&times;</span>
+						<header>
+							<br />
+							<p><b>Demografie</b></p>
+							<p>Generația noastră este cea mai puțin numeroasă. Potrivit Institutului de Statistică, la începutul anului în țara noastră erau 3,976 de milioane de persoane (17,9%) cu vârste de până la 18 ani. Adică mai puțini cu peste 23.000 de mii decât anul trecut. </p>
+						</header>	
+					</div>
+					</div>
+					<div id="TECH" class="modal">
+					<div class="modal-content">
+						<span onclick="document.getElementById('TECH').style.display='none'" class="close" >&times;</span>
+						<header>
+							<br />
+							<p><b>Tehnologie</b></p>
+							<p>Tehnologia este parte integranta din viața noastră – fiecare avem minim 2-3 device-uri, smartphone, laptop, tableta, iar marea majoritate a timpului o petrecem online; nu avem cont de email, sau chiar dacă îl avem, îl folosim rareori. “La ce bun? Când am snapchat, whatsApp, sau Facebook?” </p>
+						</header>	
+					</div>
+					</div>
+					<div id="REL" class="modal">
+					<div class="modal-content">
+						<span onclick="document.getElementById('REL').style.display='none'" class="close" >&times;</span>
+						<header>
+							<br />
+							<p><b>Relații</b></p>
+							<p>Adevărata viață socială se petrece pe rețelele online, unde mai mult de 75% dintre noi suntem înscriși.  Pentru noi, chat-ul online este mai simplu de abordat decât conversațiile din realitate.</p>
+						</header>	
+					</div>
+					</div>
+					<div id="JAR" class="modal">
+					<div class="modal-content">
+						<span onclick="document.getElementById('JAR').style.display='none'" class="close" >&times;</span>
+						<header>
+							<br />
+							<p><b>Jargon</b></p>
+							<p>"Sal! Cff? Da'i lu Alex id'u meu ji zi k ne vdm maine k aj vrea sa vb cu el j cne jtie, poate iese cv. Ms. Xoxo.". Ați înțeles ceva? Să vă traduc: "Salut! Ce faci? Dă-i lui Alex id-ul meu de messenger și spune-i că ne vedem maine, pentru că as vrea să vorbesc cu el ceva, cine știe, poate iese ceva. Multumesc, pupici".</p>
+							<p>CSF, NA-I CSF – ce să faci, na-i ce să faci?</p>
+							<p>Dope. – noul cool</p>
+							<p>Lit - noul hot</p>
+							<p>Prăduitori – toți oamenii</p>
+							<p>That’s wild! – ce tare</p>
+							<p>Savage – tot ce tare</p>
+							<p>LOL – lots of laughts </p>
+							<p>Yolo – You only live once</p>
+						</header>	
+					</div>
+					</div>
+
+					
 				</section>
 
 
@@ -160,6 +233,5 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/modal.js"></script>
 	</body>
 </html>
